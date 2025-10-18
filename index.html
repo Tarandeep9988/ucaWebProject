@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
+
 <body>
   <nav class="navbar">
     <!-- navbar section -->
@@ -22,35 +24,70 @@
   </nav>
 
   <main class="main">
-    <!-- main content section -->
-
-
-      <!-- Now playing section (sidebar) -->
-      <div class="sidebar">
-        <h2>Now playing</h2>
+    <!-- Left side: Now Playing / Song List -->
+    <div class="sidebar">
+      <h2>Now Playing</h2>
+      <div class="current-song-card">
+        <img src="./images/sample-song.jpg" alt="Current Song">
+        <div class="song-info">
+          <p class="song-title">Song Title</p>
+          <p class="song-artist">Artist Name</p>
+        </div>
       </div>
 
-      <!-- Playlist section (content area) -->
-      <div class="content">
-        <h2>Playlist</h2>
+      <h3>Playlist Songs</h3>
+      <div class="song-list">
+        <div class="song-card">
+          <p class="song-title">Song 1</p>
+          <p class="song-artist">Artist 1</p>
+        </div>
+        <div class="song-card">
+          <p class="song-title">Song 2</p>
+          <p class="song-artist">Artist 2</p>
+        </div>
+        <div class="song-card">
+          <p class="song-title">Song 3</p>
+          <p class="song-artist">Artist 3</p>
+        </div>
       </div>
+    </div>
 
+    <!-- Right side: Playlist -->
+    <div class="content">
+      <h2>Playlists</h2>
+      <div class="playlist-cards">
+        <div class="playlist-card">
+          <img src="./images/playlist1.jpg" alt="Playlist 1">
+          <p>My Favorites</p>
+        </div>
+        <div class="playlist-card">
+          <img src="./images/playlist2.jpg" alt="Playlist 2">
+          <p>Workout Mix</p>
+        </div>
+        <div class="playlist-card">
+          <img src="./images/playlist3.jpg" alt="Playlist 3">
+          <p>Chill Vibes</p>
+        </div>
+      </div>
+    </div>
   </main>
-  
+
+
   <footer class="player">
     <!-- footer section (Player) -->
-     <input type="range" class="progress-bar" value="0" max="100">
-      <div class="controls">
-        <button class="prev">
-          <img src="./images/previous.svg" alt="previous" height="24" width="24">
-        </button>
-        <button class="play">
-          <img src="./images/play.svg" alt="play" height="24" width="24">
-        </button>
-        <button class="next">
-          <img src="./images/next.svg" alt="next" height="24" width="24">
-        </button>
-      </div>
+    <input type="range" class="progress-bar" value="0" max="100">
+    <div class="controls">
+      <button class="prev">
+        <img src="./images/previous.svg" alt="previous" height="24" width="24">
+      </button>
+      <button class="play">
+        <img src="./images/play.svg" alt="play" height="24" width="24">
+      </button>
+      <button class="next">
+        <img src="./images/next.svg" alt="next" height="24" width="24">
+      </button>
+    </div>
   </footer>
 </body>
+
 </html>
