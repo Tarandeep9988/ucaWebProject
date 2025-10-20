@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Diljit Dosanjh Hits",
+    "genre": "Punjabi Pop",
+    "cover": "images/covers/diljit_dosanjh.png",
+    "songsPath": "songs/diljit_dosanjh/songs.json"
+  },
+  {
+    "name": "Karan Aujla Mix",
+    "genre": "Punjabi Hip Hop",
+    "cover": "images/covers/karan_aujla.png",
+    "songsPath": "songs/karan_aujla/songs.json"
+  },
+  {
+    "name": "NCS Releases",
+    "genre": "Electronic",
+    "cover": "images/covers/ncs.png",
+    "songsPath": "songs/ncs/songs.json"
+  }
+]
